@@ -1,0 +1,62 @@
+{
+    "layout": {
+        "type": "grid",
+        "rows": 10,
+        "cols": 5,
+        "hspace": "1mm",
+        "vspace": "1mm",
+        "hbackbone": "3mm",
+        "vbackbone": "3mm",
+        "hbonecut": false,
+        "vbonecut": false
+    },
+    "source": {
+        "type": "auto",
+        "tolerance": "0.2mm"
+    },
+    "tabs": {
+        "type": "annotation"
+    },
+    "cuts": {
+        "type": "mousebites",
+        "drill": "0.2mm",
+        "spacing": "0.3mm",
+        "offset": "-0.2mm",
+        "prolong": "0.5mm"
+    },
+    "framing": {
+        "type": "tightframe",
+        "width": "10mm",
+        "slotwidth": "1mm",
+        "cuts": "none"
+    },
+    "tooling": {
+        "type": "3hole",
+        "hoffset": "12.5mm",
+        "voffset": "2.5mm",
+        "size": "1.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "15mm",
+        "voffset": "8mm",
+        "opening": "2mm"
+    },
+    "text": {
+        "type": "simple",
+        "text": "{boardTitle} REV{boardRevision} Created on {date} at {time24} by {boardCompany}",
+        "anchor": "mb",
+        "voffset": "-5mm",
+        "hjustify": "center",
+        "vjustify": "center",
+        "layer": "F.Mask"
+    },
+    "page": {
+        "type": "A3",
+        "posx": "25mm",
+        "posy": "25mm"
+    },
+    "post": {
+        "millradius": "0.5mm"
+    }
+}
