@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "USBtoUART")(type "KiCad")(uri "${KIPRJMOD}/USBtoUART.kicad_sym")(options "")(descr "custom symbols for the USB to UART project"))
+)

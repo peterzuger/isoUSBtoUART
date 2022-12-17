@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "USBtoUART")(type "KiCad")(uri "${KIPRJMOD}/USBtoUART.pretty")(options "")(descr "custom footprints for the USB to UART project"))
+  (lib (name "KiKit")(type "KiCad")(uri "/usr/lib/python3.10/site-packages/kikit/resources/kikit.pretty")(options "")(descr ""))
+)
